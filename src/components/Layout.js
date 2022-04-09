@@ -3,7 +3,7 @@ import NavBar from './NavBar'
 
 export default function Layout({ children }) {
     return (
-        <div className="layout">
+        <div className="layout bg-secondaryDark text-primaryDark">
             <NavBar />
             <div className="content">
                 {children}
