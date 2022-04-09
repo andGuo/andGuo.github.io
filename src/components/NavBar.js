@@ -1,16 +1,15 @@
-import React from 'react'
-import { Link } from "gatsby"
+import * as React from 'react'
+import { Link } from 'gatsby'
 
 export default function NavBar() {
     return (
         <nav>
-            <h1>My Site</h1>
-            <div className="links">
-                <Link to="/">Home</Link>
-                <Link to="/about">About me</Link>
-                <Link to="/portfolio">Portfolio</Link>
-                <Link to="/wasmProject">WASM Thing</Link>
-            </div>
+            <ul className="menu">
+                <li className="logo"><Link to="/">My Site</Link></li>
+                <li className="item"><Link to="/about">About me</Link></li>
+                <li className="item"><Link to="/portfolio">Portfolio</Link></li>
+                <li className="item"><Link to="/wasmProject">WASM Thing</Link></li>
+            </ul>
         </nav>
     )
 }
