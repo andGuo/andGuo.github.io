@@ -9,9 +9,9 @@ export default function NavBar() {
             </div>
             <div className="hidden sm:flex">
                 <ul className="flex menu mt-2.5 p-3 text-xl">
-                    <li className="item mx-3 px-1.5 hover:text-gray-300"><Link to="/about">About me</Link></li>
-                    <li className="item mx-3 px-1.5 hover:text-gray-300"><Link to="/portfolio">Portfolio</Link></li>
-                    <li className="item mx-3 px-1.5 hover:text-gray-300"><Link to="/wasmProject">WASM Thing</Link></li>
+                    <li className="item mx-3 px-1.5 hover:text-secondaryLight"><Link to="/about">About me</Link></li>
+                    <li className="item mx-3 px-1.5 hover:text-secondaryLight"><Link to="/portfolio">Portfolio</Link></li>
+                    <li className="item mx-3 px-1.5 hover:text-secondaryLight"><Link to="/wasmProject">WASM Thing</Link></li>
                 </ul>
             </div>
             <div className="sm:hidden flex items-center">

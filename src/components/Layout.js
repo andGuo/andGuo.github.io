@@ -10,7 +10,7 @@ export default function Layout({ children }) {
                     {children}
                 </div>
                 <footer className="flex justify-center align-middle content-start">
-                    <p className="p-8">andGuo 2022</p>
+                    <p className="p-8">andGuo <span className="text-secondaryLight">2022</span></p>
                 </footer>
             </div>
         </div>
