@@ -1,7 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `new`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `Andrew Guo`,
+    description:
+      "Personal website for Andrew Guo, student at Carleton University",
+    siteUrl: `https://andguo.github.io/`,
   },
   plugins: [
     'gatsby-plugin-postcss',
