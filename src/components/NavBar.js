@@ -4,8 +4,8 @@ import { Link } from 'gatsby'
 export default function NavBar() {
     return (
         <nav className="flex items-center justify-between content-end">
-            <div className="logo h-12 px-4 py-1 text-5xl">
-                <Link className="hover:text-gray-300" to="/">My Site</Link>
+            <div className="logo h-12 px-4 py-2 text-5xl font-bold">
+                <Link className="hover:text-gray-300" to="/">~/</Link>
             </div>
             <div className="hidden sm:flex">
                 <ul className="flex menu mt-2.5 p-3 text-xl">
