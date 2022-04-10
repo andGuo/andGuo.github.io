@@ -8,10 +8,10 @@ export default function NavBar() {
                 <Link className="hover:text-gray-300" to="/">~/</Link>
             </div>
             <div className="flex">
-                <ul className="flex menu mt-2.5 p-3 text-xl">
-                    <li className="item mx-3 px-1.5 hover:text-secondaryLight"><Link to="/about">About me</Link></li>
-                    <li className="item mx-3 px-1.5 hover:text-secondaryLight"><Link to="/portfolio">Portfolio</Link></li>
-                    <li className="item mx-3 px-1.5 hover:text-secondaryLight"><Link to="/wasmProject">WASM Thing</Link></li>
+                <ul className="flex mt-2.5 p-3 text-xl">
+                    <li className="navBtn"><Link to="/about">About me</Link></li>
+                    <li className="navBtn"><Link to="/portfolio">Portfolio</Link></li>
+                    <li className="navBtn"><Link to="/wasmProject">WASM Thing</Link></li>
                 </ul>
             </div>
         </nav>
