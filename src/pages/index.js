@@ -2,11 +2,14 @@ import * as React from 'react'
 import { Link } from "gatsby"
 import Layout from "../components/Layout"
 import ResumePdf from "../../public/static/pdf/Andrew_Guo_Resume.pdf"
+import Seo from "../components/Seo"
+
 
 // markup
 const IndexPage = () => {
 	return (
 		<Layout>
+			<Seo title="Home" />
 			<div className="flex h-96 flex-col items-center justify-center">
 				<h2 className="text-8xl p-3">Andrew Guo</h2>
 				<h3 className="text-3xl p-2 text-secondaryLight">CS Student @ Carleton University</h3>
