@@ -4,12 +4,12 @@
 
 @layer base {
     .indexBtn {
-        @apply w-36 bg-primaryDark hover:bg-secondaryLight text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center mx-2;
+        @apply w-36 bg-lightPrimary text-lightSecondary hover:bg-lightSecondary hover:text-lightPrimary dark:bg-darkPrimary dark:hover:bg-lightSecondary dark:text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center mx-2;
     }
 }
 
 @layer components {
     .navBtn {
-        @apply mx-3 px-1.5 hover:text-secondaryLight;
+        @apply mx-3 px-1.5 hover:text-lightSecondary;
     }
 }
