@@ -1,4 +1,3 @@
-import './src/styles/global.css'
 import * as React from "react"
 import GlobalStateProvider from './src/store/GlobalStateProvider'
 
