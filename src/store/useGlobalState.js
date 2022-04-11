@@ -1,10 +1,13 @@
 import { useReducer } from "react";
+import storage from 'local-storage-fallback'
 
-const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+const isBrowser = () => typeof window !== 'undefined';
+const prefersDark = isBrowser() ? window.matchMedia('(prefers-color-scheme: dark)').matches : false;
 
 const reducer = (state, action) => {
     switch (action.type) {
         case "TOGGLE_DARK_MODE":
+            storage.setItem("isDarkMode", !state.isDarkMode);
             return {
                 isDarkMode: !state.isDarkMode,
             };
@@ -15,7 +18,7 @@ const reducer = (state, action) => {
 
 const useGlobalState = () => {
     const [state, dispatch] = useReducer(reducer, {
-        isDarkMode: prefersDark
+        isDarkMode: storage.getItem("isDarkMode") ? JSON.parse(storage.getItem("isDarkMode")) : prefersDark,
     });
 
     return {state, dispatch};
