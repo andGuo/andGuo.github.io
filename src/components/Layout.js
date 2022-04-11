@@ -3,7 +3,7 @@ import NavBar from './NavBar'
 
 export default function Layout({ children }) {
     return (
-        <div className="layout min-h-screen bg-gradient-to-br from-lightSecondary to-gray-500 text-lightPrimary dark:bg-gradient-to-br dark:from-darkSecondary dark:to-gray-700 dark:text-darkPrimary">
+        <div className="layout min-h-screen bg-gradient-to-br from-lightSecondary to-gray-400 text-lightPrimary dark:bg-gradient-to-br dark:from-darkSecondary dark:to-gray-700 dark:text-darkPrimary">
             <NavBar />
             <div className="flex flex-col flex-grow justify-between">
                 <div className="content">
