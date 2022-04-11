@@ -12,7 +12,7 @@ const IndexPage = () => {
 			<Seo title="Home" />
 			<div className="flex h-96 flex-col items-center justify-center">
 				<h2 className="text-8xl p-3">Andrew Guo</h2>
-				<h3 className="text-3xl p-2 text-lightText dark:text-textDark">CS Student @ Carleton University</h3>
+				<h3 className="text-3xl p-2 text-lightText dark:text-darkText">CS Student @ Carleton University</h3>
 			</div>
 			<div className="flex flex-wrap h-64 items-start justify-center">
 				<button href={ResumePdf} target="_blank" rel="noreferrer" className="indexBtn">
