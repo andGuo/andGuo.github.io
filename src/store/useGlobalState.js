@@ -2,7 +2,7 @@ import { useReducer } from "react";
 import storage from 'local-storage-fallback'
 
 const isBrowser = () => typeof window !== 'undefined';
-const prefersDark = isBrowser() ? window.matchMedia('(prefers-color-scheme: dark)').matches : false;
+const prefersDark = isBrowser() ? window.matchMedia('(prefers-color-scheme: dark)').matches : true;
 
 const reducer = (state, action) => {
     switch (action.type) {
