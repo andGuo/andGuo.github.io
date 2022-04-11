@@ -14,7 +14,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pdfs`,
-        path: `${__dirname}/public/static/pdf/`,
+        path: `${__dirname}/static/pdf/`,
       },
     },
   ],
