@@ -1,12 +1,13 @@
 import * as React from 'react'
-import { Link } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Layout from "../components/Layout"
-import ResumePdf from "../../public/static/pdf/Andrew_Guo_Resume.pdf"
 import Seo from "../components/Seo"
 
 
 // markup
-const IndexPage = () => {
+const IndexPage = ({data}) => {
+	const ResumePdf = data.file.publicURL;
+
 	return (
 		<Layout>
 			<Seo title="Home" />
@@ -39,3 +40,11 @@ const IndexPage = () => {
 }
 
 export default IndexPage
+
+export const query = graphql`
+	query resumeQuery {
+		file(name: {eq: "Andrew_Guo_Resume"}) {
+			publicURL
+		}
+	}
+  `
