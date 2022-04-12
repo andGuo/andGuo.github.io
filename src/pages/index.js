@@ -12,10 +12,10 @@ const IndexPage = ({data}) => {
 		<Layout>
 			<Seo title="Home" />
 			<div className="flex my-8 sm:my-16 flex-col items-center justify-center">
-				<h2 className="text-8xl p-3">Andrew Guo</h2>
-				<h3 className="text-3xl p-2 text-lightText dark:text-darkText">CS Student @ Carleton University</h3>
+				<h2 className="text-7xl sm:text-8xl p-3">Andrew Guo</h2>
+				<h3 className="text-2xl sm:text-3xl p-2 text-lightText dark:text-darkText">CS Student @ Carleton University</h3>
 			</div>
-			<div className="flex flex-wrap h-64 flex-col items-center justify-around sm:my-16 sm:flex-row sm:items-start sm:justify-center">
+			<div className="flex flex-wrap mb-14 h-64 flex-col items-center justify-around sm:my-16 sm:flex-row sm:items-start sm:justify-center">
 				<a href={ResumePdf} target="_blank" rel="noreferrer" className="indexBtn">
 					<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
 						<path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
