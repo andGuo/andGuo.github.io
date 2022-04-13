@@ -7,10 +7,16 @@ export default function NavBar() {
     const { state, dispatch } = React.useContext(Context);
     const [showBtn, setShowBtn] = React.useState(state);
 
-    const makeDark = b => b ? document.documentElement.classList.add('dark') : document.documentElement.classList.remove('dark');
+    const makeDark = isDark => isDark ? document.documentElement.classList.add('dark') : document.documentElement.classList.remove('dark');
+
+    const changeTheme = function (isDark) {
+        let colour = isDark ? "#00b388" : "#1f3855";
+        document.querySelector("meta[name='theme-color']").setAttribute("content", colour);
+    }
 
     React.useEffect(() => {
         makeDark(state.isDarkMode);
+        changeTheme(state.isDarkMode);
         setShowBtn(state.isDarkMode);
     }, [state.isDarkMode]);
 
