@@ -11,7 +11,7 @@ const IndexPage = ({data}) => {
 	return (
 		<Layout>
 			<Seo title="Home" />
-			<div className="flex my-8 sm:my-16 flex-col items-center justify-center">
+			<div className="flex my-8 sm:mb-16 sm:mt-24 flex-col items-center justify-center">
 				<h2 className="text-7xl sm:text-8xl p-3">Andrew Guo</h2>
 				<h3 className="text-2xl sm:text-3xl p-2 text-lightText dark:text-darkText">CS Student @ Carleton University</h3>
 			</div>
