@@ -36,7 +36,7 @@ export default function about({ data }) {
                 <div>
                     <h1 className="text-4xl ml-6 mr-4 my-3">My Skills</h1>
                 </div>
-                <div className="col-span-3 grid grid-cols-3 items-center bg-zinc-300 dark:bg-zinc-400 py-8 px-0.5 rounded-2xl drop-shadow-2xl my-4 mx-6">
+                <div className="col-span-3 grid grid-cols-3 items-center bg-zinc-300 dark:bg-slate-500 py-8 px-0.5 rounded-2xl drop-shadow-2xl my-4 mx-6">
                     <div className="flex justify-center p-1">
                         {/*C Logo*/}
                         <svg className="h-28" viewBox="0 0 128 128">
@@ -86,9 +86,9 @@ export default function about({ data }) {
                         </svg>
                     </div>
                     <div className="flex justify-center p-1">
-                        {/*Gatsby Logo*/}
+                        {/*Tailwind Logo*/}
                         <svg className="h-24" viewBox="0 0 128 128">
-                            <path fill="#64328B" d="M64 0C28.7 0 0 28.7 0 64s28.7 64 64 64 64-28.7 64-64S99.3 0 64 0zM13.2 64L64 114.8c-28.1 0-50.8-22.7-50.8-50.8zm62.2 49.5l-60.9-61C19.7 30 39.9 13.2 64 13.2c16.6 0 31.3 7.9 40.5 20.2L97 40.6c-7.3-10.4-19.3-17.1-33-17.1-17.6 0-32.5 11.2-38.1 26.8C33.1 57 75.4 98.8 78.1 102c12.7-4.7 22.3-15.5 25.4-28.9H81.9v-9.4l33 .2c-.1 24.3-16.9 44.5-39.5 49.6z"></path>
+                            <path d="M64.004 25.602c-17.067 0-27.73 8.53-32 25.597 6.398-8.531 13.867-11.73 22.398-9.597 4.871 1.214 8.352 4.746 12.207 8.66C72.883 56.629 80.145 64 96.004 64c17.066 0 27.73-8.531 32-25.602-6.399 8.536-13.867 11.735-22.399 9.602-4.87-1.215-8.347-4.746-12.207-8.66-6.27-6.367-13.53-13.738-29.394-13.738zM32.004 64c-17.066 0-27.73 8.531-32 25.602C6.402 81.066 13.87 77.867 22.402 80c4.871 1.215 8.352 4.746 12.207 8.66 6.274 6.367 13.536 13.738 29.395 13.738 17.066 0 27.73-8.53 32-25.597-6.399 8.531-13.867 11.73-22.399 9.597-4.87-1.214-8.347-4.746-12.207-8.66C55.128 71.371 47.868 64 32.004 64zm0 0" fill="#38b2ac"></path>
                         </svg>
                     </div>
                 </div>
