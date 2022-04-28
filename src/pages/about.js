@@ -36,7 +36,7 @@ export default function about({ data }) {
                 <div>
                     <h1 className="text-4xl ml-6 mr-4 my-3">My Skills</h1>
                 </div>
-                <div className="col-span-3 grid grid-cols-3 items-center bg-zinc-300 dark:bg-slate-500 py-8 px-0.5 rounded-2xl drop-shadow-2xl my-4 mx-6">
+                <div className="col-span-3 grid grid-cols-3 max-w-2xl items-center bg-stone-300 dark:bg-gray-500 py-8 px-0.5 rounded-2xl drop-shadow-2xl my-4 mx-6">
                     <div className="flex justify-center p-1">
                         {/*C Logo*/}
                         <svg className="h-28" viewBox="0 0 128 128">
