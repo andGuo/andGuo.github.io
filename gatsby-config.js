@@ -12,13 +12,6 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-remark',
     `gatsby-plugin-mdx`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `Andrew_Guo_Resume`,
-        path: `${__dirname}/static/pdf/Andrew_Guo_Resume.pdf`,
-      },
-    },
     { 
       resolve: `gatsby-source-filesystem`,
       options: {
