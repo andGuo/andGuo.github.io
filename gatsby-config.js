@@ -15,8 +15,8 @@ module.exports = {
     { 
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `resume2022q2`,
-        path: `${__dirname}/static/pdf/andrew-guo-resume_2022q2.pdf`,
+        name: `andrew_resume`,
+        path: `${__dirname}/static/pdf/andrew-guo-resume.pdf`,
       },
     },
     {
