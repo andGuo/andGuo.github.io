@@ -30,8 +30,6 @@ export default function NavBar() {
             <div className="flex items-center pr-1.5">
                 <ul className="hidden sm:flex mt-2.5 p-3 text-xl items-center justify-evenly">
                     <li className="navBtn"><Link to="/about">About me</Link></li>
-                    <li className="navBtn"><Link to="/portfolio">Portfolio</Link></li>
-                    <li className="navBtn"><Link to="/wasmProject">WASM Thing</Link></li>
                 </ul>
                 <div className="sm:hidden">
                     {openNavMenu ? (
@@ -63,8 +61,6 @@ export default function NavBar() {
                 <div className="sm:hidden basis-full bg-lightPrimary dark:bg-darkPrimary mt-6 mb-4">
                     <ul className="flex text-xl flex-col items-center justify-evenly">
                         <Link to="/about" className="border border-solid border-black w-full"><li className="navBtn py-4 text-lightSecondary dark:text-darkSecondary font-bold">About me</li></Link>
-                        <Link to="/portfolio" className="border border-solid border-black w-full"><li className="navBtn py-4 text-lightSecondary dark:text-darkSecondary font-bold">Portfolio</li></Link>
-                        <Link to="/wasmProject" className="border border-solid border-black w-full"><li className="navBtn py-4 text-lightSecondary dark:text-darkSecondary font-bold">WASM Thing</li></Link>
                     </ul>
                 </div>
             }
